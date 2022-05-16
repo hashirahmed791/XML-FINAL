@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Company [
+    <!ELEMENT Company (employee)*>
+    <!ELEMENT employee (name,salary)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+    <!ATTLIST employee id CDATA #REQUIRED>
+]>
+
+<Company>
+<employee id="10234">
+<name> Sara </name>
+<salary> 1000</salary>
+</employee>
+
+
+<employee id="10235">
+<name>Sana</name>
+ <salary>2000</salary>
+    </employee>
+
+    <employee id="10236">
+        <name>Ali</name>
+        <salary>100</salary>
+        </employee>
+
+        <employee id="10237">
+            <name>Anas</name>
+            <salary>200</salary>
+            </employee>
+
+            <employee id="10238">
+                <name>hira</name>
+                <salary>1000</salary>
+                </employee>
+
+</Company>
